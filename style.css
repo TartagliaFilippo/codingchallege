@@ -1,0 +1,110 @@
+/* colori:
+  -verde fluo:#00FF00
+  -rosso magenta:#B22222
+  -rosa:#E9967A
+  -verde scuro:#006400 */
+
+html{
+    font-family: 'Livvic',sans-serif;
+}
+
+body{
+  background-image: url(img/sfondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* CONTAINER DI SFONDO */
+#container{
+  margin: 0 auto;
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+/* TITOLO E LOGO */
+header{
+  padding-top: 10%;
+}
+
+img{
+  display: flex;
+  margin: 0 auto;
+  height: 75px;
+}
+
+h1{
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
+  text-align: center;
+  color: #00FF00;
+}
+
+/* NAVIGATORE */
+nav{
+  background-color: #00FF00;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  border:10px solid #00FF00;
+}
+
+nav input{
+  margin: 0 5px;
+}
+
+/* MONOPATTINI */
+main{
+  margin: 20px auto;
+  width: 82%
+}
+
+section{
+  width: 65%;
+  color: white;
+  margin-bottom: 20px;
+}
+
+label{
+  font-size: 20px;
+  font-weight: normal;
+}
+
+p{
+  font-size: 15px;
+  margin: 0 auto 5px auto;
+}
+
+.testo2{
+  margin-bottom: 0;
+}
+
+/* INDICATORE DI CARICA */
+.carica1{
+  height: 25px;
+  width: 50%;
+  background-color: #E9967A;
+  border-radius: 5px;
+}
+
+.carica2{
+  height: 25px;
+  width: 90%;
+  background-color: #006400;
+  border-radius: 5px;
+}
+
+.carica3{
+  height: 25px;
+  width: 25%;
+  background-color: #B22222;
+  border-radius: 5px;
+}
+
+/* SPONSOR */
+footer{
+  height: 60px
+}
